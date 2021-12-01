@@ -6,10 +6,7 @@ import javax.naming.NamingException;
 import javax.naming.directory.DirContext;
 import javax.naming.directory.InitialDirContext;
 
-/**
- *
- * @author gapfenin
- */
+
 public class Connection {
     static DirContext getContext(String pass) throws NamingException {
         Properties properties = new Properties();
